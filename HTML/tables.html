@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLES</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ITEM</th>
+                <th>QUANTITY</th>
+                <th>PRICE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Apple</td>
+                <td>10</td>
+                <td>$20</td>
+            </tr>
+            <tr>
+                <td>Orange</td>
+                <td>20</td>
+                <td>$30</td>
+            </tr>
+            <tr>
+                <td>Guava</td>
+                <td>30</td>
+                <td>$50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>60</td>
+                <td>$100</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <table border="1">
+       <thead>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Contact Information</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <td>Pragnya</td>
+            <td>93928763535</td>
+            <td>ppnya@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Praveena</td>
+            <td>8725243577</td>
+            <td>nyapra@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Pravi</td>
+            <td>7353781636</td>
+            <td>pra@gmail.com</td>
+        </tr>
+       </tbody>
+    </table>
+    <hr>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+        </thead>
+        <tbody>
+           <tr>
+            <td rowspan="2">row1 cell1</td>
+            <td>row1 cell1</td>
+            <td>row1 cell2</td>
+           </tr>
+           <tr>
+            <td>row2 cell1</td>
+            <td>row2 cell2</td>
+           </tr>
+           <tr>
+            <td colspan="3">row3 cell1</td>
+           </tr>
+        </tbody>
+    </table>
+    <hr>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Level 1</th>
+                <th>Level 2</th>
+                <th>Level 3</th>
+                <th>Level 4</th>
+                <th>Level 5</th>
+            </tr>
+        </thead>
+        <body>
+            <tr>
+                <td rowspan="6" colspan="1">System</td>
+                <td rowspan="4">System Basics</td>
+                <td rowspan="3">System env</td>
+                <td>app test</td>
+                <td rowspan="2">foo</td>
+            </tr>
+            <tr>
+                <td>app memory</td>
+            </tr>
+            <tr>
+                <td>app test</td>
+                <td rowspan="2">bar</td>
+            </tr>
+            <tr>
+                <td>system env2</td>
+                <td>app memory</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2">System Memory</td>
+                <td>memory func</td>
+                <td>foo</td>
+            </tr>
+            <tr>
+                <td>apes test</td>
+                <td>bar</td>
+            </tr>
+        </body>
+    </table>
+    <hr>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="6">TIMETABLE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6">Hours</td>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thur</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                <td>Mat</td>
+                <td>Sci</td>
+                <td>Soc</td>
+                <td>Tel</td>
+                <td>Hin</td>
+            </tr>
+            <tr>
+                <td>Mat</td>
+                <td>Sci</td>
+                <td>Soc</td>
+                <td>Mat</td>
+                <td>Soc</td>
+            </tr>
+            <tr>
+                <th colspan="5">LUNCH</th>
+            </tr>
+            <tr>
+                <td>Mat</td>
+                <td>Sci</td>
+                <td>Soc</td>
+                <td>Mat</td>
+                <td>Sci</td>
+            </tr>
+            <tr>
+                <td>Hin</td>
+                <td>Tel</td>
+                <td>Mat</td>
+                <td>Eng</td>
+                <td>Tel</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
