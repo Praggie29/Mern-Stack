@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+.container{
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   height: 700px;
+   width:700px;
+   background-color: aliceblue;
+   gap:10px;
+   padding:5px;
+}
+.Box{
+    background-color: aquamarine;
+}
+.Box-One {
+    background-color: rgb(178, 234, 161);
+    grid-row: 1/4;
+}
+.Box-Two{
+    background-color: blueviolet;
+    grid-column: 2/4;
+}
+.Box-Three{
+    background-color: orange;
+}
+.Box-Four{
+    background-color: rgb(176, 213, 237);
+}
+.Box-Five{
+    background-color: rgb(225, 138, 136);
+}
+.Box-Six{
+    background-color: rgb(223, 176, 223);
+    grid-row: 2/4;
+    grid-column: 4;
+}
+.Box-Seven{
+    background-color: rgb(241, 162, 162);
+}
+.Box-Eight{
+    background-color: rgb(176, 219, 235);
+    
+}
